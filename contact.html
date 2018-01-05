@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact - AΩE</title>
+
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+	<!--FontAwesome-->
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
+	<!--Fonts-->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+	<!--Owl Carousel-->
+	<link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css" type="text/css">
+	<link rel="stylesheet" href="assets/owl-carousel/owl.theme.css" type="text/css">
+	<!--<link rel="stylesheet" href="assets/owl-carousel/owl.transitions.css" type="text/css">-->
+	<!--Main Style-->
+	<link rel="stylesheet" href="style.css" type="text/css">
+
+	<!--Responsive Style-->
+	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
+	<style>
+		[data-sr] {
+			visibility: hidden;
+		}
+	</style>
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+<!--/HEADER SECTION -->
+<header class="header">
+	<div class="container">
+		<div class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html"><img src="assets/images/logo_icon.png"></a>
+				</div><!-- end navbar-header -->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a data-scroll href="index.html">Home</a></li>
+						<li><a data-scroll href="about.html" >About</a></li>
+						<li><a data-scroll href="sisterhood.html" >Sisterhood</a></li>
+						<li><a data-scroll href="events.html" >Events</a></li>
+						<li><a data-scroll href="recruitment.html" >Recruitment</a></li>
+						<li><a class="active" href="contact.html" >Contact</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div><!--/.container-fluid -->
+		</div>
+	</div><!-- end container -->
+</header><!-- end header -->
+
+<!--/SLIDER SECTION -->
+<section id="home" class="sliderwrapper clearfix" style="background-image: url(assets/images/contact.jpg);">
+
+	<div class="home-overlay"></div>
+
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="block" >
+					<h1 class="home-title wow fadeInDown">Have Any Questions?</h1>
+
+					<p class="title-small wow fadeInDown" data-wow-delay="0.3s">Get in contact with us!</p>
+
+					<div class="wow fadeInDown" data-wow-delay="0.3s">
+						<a data-scroll class="btn btn-action" href="#contact"
+						   role="button"><i class="fa fa-angle-down" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- .row close -->
+		</div>
+	</div>
+
+</section><!-- end Home -->
+
+<!--Contact-->
+<section id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h1 class="section-title">Contact</h1>
+
+				<p class="sec-subtitle">Feel free to reach out to get in touch with our sisters, learn how to become involved, or just have your questions answered!</p>
+			</div>
+			<div class="col-sm-4" data-sr="enter left, hustle 80px">
+				<div class="address">
+					<p class="address-title title"><i class="fa fa-map-marker"></i> Address</p>
+
+					<p class="address-content">24 Willard Straight Hall, Ithaca, NY 14853</p>
+				</div>
+				<div class="address">
+					<p class="address-title title"><i class="fa fa-envelope-o"></i>E-mail</p>
+
+					<p class="address-content"><a href="mailto:aoecornell@gmail.com">aoecornell@gmail.com</a></p>
+				</div>
+				<div class="address">
+					<p class="address-title title"><i class="fa fa-envelope-o"></i>President - Caitlin Stanton</p>
+
+					<p class="address-content"><a href="mailto:cs968@cornell.edu">cs968@cornell.edu</a></p>
+				</div>
+				<div class="address">
+					<p class="address-title title"><i class="fa fa-envelope-o"></i>Vice President - Anjuli Smith</p>
+
+					<p class="address-content"><a href="mailto:as3284@cornell.edu">as3284@cornell.edu</a></p>
+				</div>
+			</div>
+			<div class="col-sm-8" data-sr="enter right, hustle 80px">
+				<form class="st-form">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group ">
+								<input type="text" class="form-control" placeholder="YOUR NAME" id="yourname">
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group ">
+								<input type="text" class="form-control" placeholder="YOUR E-MAIL" id="youremail">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="form-group ">
+								<input type="text" class="form-control" placeholder="YOUR SUBJECT" id="subject">
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group ">
+						<textarea class="form-control" rows="4" placeholder="WRITE YOUR MESSAGE" id="body"></textarea>
+					</div>
+					<button type="submit" class="btn btn-send" onclick="sendEmail()">Email Us</button>
+					<script type="text/javascript">
+						function sendEmail() {
+							var subject = document.getElementById('subject').value;
+							var body = document.getElementById('body').value;
+							window.open('mailto:aoecornell@gmail.com?subject='+subject+'&body='+body);
+						}
+					</script>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- / Contact-->
+
+<!--Footer-->
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center" data-sr='enter bottom, wait 0.32s'>
+				<div class="social">
+					<ul class="list-inline">
+						<li><a href="mailto:aoecornell@gmail.com"><i class="fa fa-envelope"></i></a></li>
+						<li><a href="https://www.facebook.com/aoecornell/"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/aoecornell/"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://twitter.com/aoecornell/"><i class="fa fa-twitter"></i></a></li>
+					</ul>
+				</div>
+
+				<p>&copy; 2017 Alpha Omega Epsilon at Cornell</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- / Footer-->
+
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<!--<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+<!--Sticky -->
+<!--<script type="text/javascript" src="assets/js/jquery.sticky.js"></script>-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!--Owl Carousel-->
+<script type="text/javascript" src="assets/owl-carousel/owl.carousel.min.js"></script>
+<!--Parallax-->
+<script type="text/javascript" src="assets/js/jquery.stellar.min.js"></script>
+<!--IsoTop-->
+<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+<!--Typed js-->
+<script type="text/javascript" src="assets/js/typed.js"></script>
+<!--Smooth Scroll-->
+<script type="text/javascript" src="assets/js/smooth-scroll.js"></script>
+<!--Reveal JS-->
+<script type="text/javascript" src="assets/js/scrollReveal.min.js"></script>
+
+<!--Main-->
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+
+</body>
+</html>

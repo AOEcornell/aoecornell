@@ -1,100 +1,114 @@
-<!--  *** TO DO ***
-- Get header photos
-- Fix text/font styles
-- Add text animation to spell out cute things that have the letters A O E in them
--->
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
+	<meta charset="UTF-8">
+	<title>Alpha Omega Epsilon</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+	<!--FontAwesome-->
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
+	<!--Fonts-->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+	<!--Owl Carousel-->
+	<link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css" type="text/css">
+	<link rel="stylesheet" href="assets/owl-carousel/owl.theme.css" type="text/css">
+	<!--<link rel="stylesheet" href="assets/owl-carousel/owl.transitions.css" type="text/css">-->
+	<!--Main Style-->
+	<link rel="stylesheet" href="style.css" type="text/css">
 
-    <title>Alpha Omega Epsilon @ Cornell</title>
+	<!--Responsive Style-->
+	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
+	<style>
+		[data-sr] {
+			visibility: hidden;
+		}
+	</style>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/full-slider.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<!--Favicon-->
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
 </head>
-
 <body>
 
-    <!-- Full Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide">
+<!--/HEADER SECTION -->
+<header class="header">
+	<div class="container">
+		<div class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html"><img src="assets/images/logo_icon.png"></a>
+				</div><!-- end navbar-header -->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a class="active"  href="index.html">Home</a></li>
+						<li><a data-scroll href="about.html" >About</a></li>
+						<li><a data-scroll href="sisterhood.html" >Sisterhood</a></li>
+						<li><a data-scroll href="events.html" >Events</a></li>
+						<li><a data-scroll href="recruitment.html" >Recruitment</a></li>
+						<li><a data-scroll href="contact.html" >Contact</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div><!--/.container-fluid -->
+		</div>
+	</div><!-- end container -->
+</header><!-- end header -->
 
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <br>
-            <div class="carousel-caption">
-                <h1>Alpha Omega Epsilon</h1>
-                <h2>Engineering Sorority</h2>
-                <h2>Cornell University</h2>
-                <br>
-                <a href="index.html">
-                    <a href="home.html" class="myButton">Learn More!</a>
-                </a>
-            </div>
-        </ol>
+<!--/SLIDER SECTION -->
+<section id="home" class="sliderwrapper clearfix" style="background-image: url(assets/images/index.jpg);">
 
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/carousel/carousel1.jpg');"></div>
+	<div class="home-overlay"></div>
 
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/carousel/carousel2.jpg');"></div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/carousel/carousel3.jpg');"></div>
-            </div>
-        </div>
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="block" >
+					<h1 class="home-title wow fadeInDown">We Are <br> <span class=element></span></h1>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
+					<p class="title-small wow fadeInDown" data-wow-delay="0.3s">Welcome to the Cornell colony of Alpha Omega Epsilon</p>
 
-    </header>
+					<div class="wow fadeInDown" data-wow-delay="0.3s">
+						<a class="btn btn-action" href="about.html"
+						   role="button">Learn About Us
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- .row close -->
+		</div>
+	</div>
 
+</section><!-- end Home -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<!--<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+<!--Sticky -->
+<!--<script type="text/javascript" src="assets/js/jquery.sticky.js"></script>-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!--Owl Carousel-->
+<script type="text/javascript" src="assets/owl-carousel/owl.carousel.min.js"></script>
+<!--Parallax-->
+<script type="text/javascript" src="assets/js/jquery.stellar.min.js"></script>
+<!--IsoTop-->
+<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+<!--Typed js-->
+<script type="text/javascript" src="assets/js/typed.js"></script>
+<!--Smooth Scroll-->
+<script type="text/javascript" src="assets/js/smooth-scroll.js"></script>
+<!--Reveal JS-->
+<script type="text/javascript" src="assets/js/scrollReveal.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<!--Main-->
+<script type="text/javascript" src="assets/js/main.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
 
 </body>
-
 </html>
