@@ -1393,7 +1393,7 @@ a.btn-view {
 }
 
 .action-overlay {
-	background: rgba(192, 48, 28, 0.6);
+	background: rgba(4, 22, 158, 0.6); 
 	position: absolute;
 	left: 0;
 	right: 0;
