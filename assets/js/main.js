@@ -132,8 +132,8 @@
         //  Typed JS
         //====================================
                 $(".element").typed({
-                    strings: ["ALPHA OMEGA EPSILON!", "CORNELL'S FIRST AND ONLY ENGINEERING SORORITY!"],
-                    typeSpeed: 300,
+                    strings: ["ALPHA OMEGA EPSILON!", "CORNELL'S FIRST AND ONLY ENGINEERING SORORITY!", "RECRUITING!"],
+                    typeSpeed: 500,
                     loop: true,
                     cursorChar: "|",
                 });
