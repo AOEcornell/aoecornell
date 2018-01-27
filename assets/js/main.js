@@ -133,7 +133,7 @@
         //====================================
                 $(".element").typed({
                     strings: ["ALPHA OMEGA EPSILON!", "CORNELL'S FIRST AND ONLY ENGINEERING SORORITY!", "RECRUITING!"],
-                    typeSpeed: 500,
+                    typeSpeed: 1000,
                     loop: true,
                     cursorChar: "|",
                 });
