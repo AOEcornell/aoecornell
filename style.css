@@ -154,6 +154,7 @@ sub {
 
 img {
 	border: 0;
+
 }
 
 svg:not(:root) {
@@ -301,6 +302,7 @@ h6 {
 p {
 	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
+	text-align: left;
 }
 
 dfn,
@@ -422,6 +424,12 @@ dd {
 img {
 	height: auto; /* Make sure images are scaled correctly. */
 	max-width: 100%; /* Adhere to container width. */
+}
+
+#beta{
+	height: 300px;
+
+	
 }
 
 table {
@@ -1237,6 +1245,8 @@ section {
 .team-social p {
 	color:white;
 	margin:3%;
+	font-size: 177%;
+
 }
 
 .team-social ul {
