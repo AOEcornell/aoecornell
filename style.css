@@ -1328,7 +1328,7 @@ section {
 }
 
 .overlay-caption {
-	margin: 0 auto;
+	margin: 15px;
 	color: #fff;
 }
 
@@ -1473,7 +1473,7 @@ a.btn-view {
 /*	===========================================================
 	09. Testimonial
 	=========================================================== */
-#testimonial {
+.testimonial {
 	background: #f8f8f8;
 }
 
@@ -1486,17 +1486,17 @@ a.btn-view {
 	padding-right: 30px;
 }
 
-#owl-testimonial .item {
+.owl-testimonial .item {
 	display: block;
 	width: 100%;
 	height: auto;
 }
 
-#owl-testimonial .item .testimonial-text {
+.owl-testimonial .item .testimonial-text {
 	font-size: 18px;
 }
 
-#owl-testimonial .item .testimonial-author {
+.owl-testimonial .item .testimonial-author {
 	font-size: 20px;
 }
 
