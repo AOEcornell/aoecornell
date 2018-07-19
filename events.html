@@ -29,6 +29,11 @@
 	<!--Favicon-->
 	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+	
+	<!--Bootstrap JS-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -94,251 +99,229 @@
 			<div class="col-sm-12 ">
 				<h2 class="section-title">We Focus on...</h2>
 
-				<p class="sec-subtitle">holding and participating in events that are meaningful experiences and help our sisters develop skills and connections for the future! We understand that, as engineers and technical science majors, our sisters have busy schedules, so putting an emphasis on making each event and activity impactful is a priority.</p>
+				<p class="sec-subtitle">holding and participating in events that are meaningful experiences and help our sisters develop skills and connections for the future! We understand that, as engineers and technical science majors, our sisters have busy schedules, so putting an emphasis on making each event and activity impactful is a priority.<br> <br> Click on the buttons to learn more about our specific events!</p>
 			</div>
 			<div class="col-sm-4"  data-sr="enter left, hustle 20px">
 				<div class="service">
-					<i class="fa fa-gears service-icon"></i>
-
+					<a data-scroll class="btn btn-action" href="#testimonial-prof"
+						   role="button"><i class="fa fa-gears service-icon" aria-hidden="true"></i>
+					</a>
 					<h5 class="title">Professional Development</h5>
 
-					<p>We are all engineers and technical science majors, and we all need to conduct ourselves in a professional manner. Through workshops and initiatives organized by our Professional Committee, we've learned everything from how to craft a resume for a specific opportunity to perfecting our first impressions for recruiters and other professionals. Our talk series - An Ωutlook on Engineering - features experts talking about their journeys and giving deep dives into their fields.</p>
 				</div>
 			</div>
 			<div class="col-sm-4"  data-sr="enter top, hustle 20px">
 				<div class="service">
-					<i class="fa fa-users service-icon"></i>
-
+					<a data-scroll class="btn btn-action" href="#testimonial-phil"
+						   role="button"><i class="fa fa-users service-icon" aria-hidden="true"></i>
+					</a>
 					<h5 class="title">Philanthropy</h5>
-
-					<p>Our communities have given so much to us, everything from education to public parks, so it's time for us to give back. We plan outreach initiatives for the local Ithaca area, either through community service or organizing our own events. Each recruitment class chooses a different philanthropic arc to be their focal point for the semester and that semester's philanthropic initiatives.</p>
 				</div>
 			</div>
 			<div class="col-sm-4"  data-sr="enter right, hustle 20px">
 				<div class="service">
-					<i class="fa fa-heart service-icon"></i>
-
+					<a data-scroll class="btn btn-action" href="#testimonial-sister"
+						   role="button"><i class="fa fa-heart service-icon" aria-hidden="true"></i>
+					</a>
 					<h5 class="title">Sisterhood</h5>
-
-					<p>We all come from different backgrounds, grew up in different places, and are studying different majors. This sorority is a chance for us to all bond together, despite those differences, as fellow women in STEM. Studying for finals, attending campus events, celebrating holidays and special occassions, and even just hanging out: these are all different ways that the sisterhood of AΩE develops.</p>
 				</div>
 			</div>
 		</div>
 	</div>
+</section>
+
+<section id="testimonial-prof">
 	<div class="container text-center">
-		<div class="col-sm-12">
-			<h2 class="section-title">Upcoming Events</h2>
+		<div class="row ">
+			<h2 class="section-title">Professional Development</h2>
+
+			<p class="sec-subtitle">We are all engineers and technical science majors, and we all need to conduct ourselves in a professional manner. Through workshops and initiatives organized by our Professional Committee, we've learned everything from how to craft a resume for a specific opportunity to perfecting our first impressions for recruiters and other professionals. Our talk series - An Ωutlook on Engineering - features experts talking about their journeys and giving deep dives into their fields.</p>
+			
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+					<li data-target="#myCarousel" data-slide-to="5"></li>
+					<li data-target="#myCarousel" data-slide-to="6"></li>
+					<li data-target="#myCarousel" data-slide-to="7"></li>
+					<li data-target="#myCarousel" data-slide-to="8"></li>
+					<li data-target="#myCarousel" data-slide-to="9"></li>
+					
+				</ol>
+
+				 <!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="assets/images/events/professional/group.jpg" alt="group">
+						<div class="carousel-caption">
+							<h3>SP18 Professional Head Shots</h3>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="assets/images/events/professional/avangrid.jpg" alt="Avangrid">
+						<div class="carousel-caption">
+							<h3>Avangrid Networking Dinner</h3>
+						</div>
+					</div>
+	
+					<div class="item">
+						<img src="assets/images/events/professional/avangrid1.jpg" alt="Avangrid">
+						<div class="carousel-caption">
+							<h3>Avangrid Networking Dinner</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="assets/images/events/professional/avangrid2.jpg" alt="Avangrid">
+						<div class="carousel-caption">
+							<h3>Avangrid Networking Dinner</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="assets/images/events/professional/avangrid3.jpg" alt="Avangrid">
+						<div class="carousel-caption">
+							<h3>Avangrid Networking Dinner</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="assets/images/events/professional/avangrid4.jpg" alt="Avangrid">
+						<div class="carousel-caption">
+							<h3>Avangrid Networking Dinner</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="assets/images/events/professional/avangrid5.jpg" alt="Avangrid">
+						<div class="carousel-caption">
+							<h3>Avangrid Networking Dinner</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="assets/images/events/professional/techtalk.jpg" alt="TechTalk">
+						<div class="carousel-caption">
+							<h3>Outlook on Engineering- Product Management Tech Talk</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="assets/images/events/professional/techtalk2.jpg" alt="TechTalk">
+						<div class="carousel-caption">
+							<h3>Outlook on Engineering- IBM Tech Talk</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="assets/images/events/professional/beta.jpg" alt="TechTalk">
+						<div class="carousel-caption">
+							<h3>Beta Class Meetings</h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
 		</div>
-		<div class="col-sm-12">
-			<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=cornell.edu_0vgk790dqsagho8kqmnef8bcp4%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-		</div>
-	</div>
+	</div> <!-- / Container-->
 </section>
 
-<section id="latest-works">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 text-center">
-				<h1 class="section-title">Previous Events</h1>
+<section id="testimonial-phil">
+	<div class="container text-center">
+		<div class="row ">
+			<h2 class="section-title">Philanthropy</h2>
+
+			<p class="sec-subtitle">Our communities have given so much to us, everything from education to public parks, so it's time for us to give back. We plan outreach initiatives for the local Ithaca area, either through community service or organizing our own events. Each recruitment class chooses a different philanthropic arc to be their focal point for the semester and that semester's philanthropic initiatives.</p>
+			
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				 <!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="assets/images/events/resumereview.png" alt="Los Angeles">
+					</div>
+
+					<div class="item">
+						<img src="chicago.jpg" alt="Chicago">
+					</div>
+	
+					<div class="item">
+						<img src="ny.jpg" alt="New York">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
 		</div>
-		<div class="row text-center">
-			<div class="works-category"  data-sr='enter top, wait 0.2s'>
-				<ul class=" list-inline">
-					<li><a href="#" data-filter="*" class="current">All</a></li>
-					<li><a href="#" data-filter=".professional">Professional Development</a></li>
-					<li><a href="#" data-filter=".philanthropic">Philanthropy</a></li>
-					<li><a href="#" data-filter=".sisterhood">Sisterhood</a></li>
-					<li><a href="#" data-filter=".recruitment">Recruitment</a></li>
-				</ul>
-			</div>
-			<div class="works-area" >
-				<div class="col-md-4 col-sm-6 col-xs-12  sisterhood"  >
-					<div class="works">
-						<img src="assets/images/events/giftexchange.jpg" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Holiday Gift Exchange</h4>
-
-								<p>Sisterhood</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 sisterhood"  >
-					<div class="works">
-						<img src="assets/images/events/iceskating.jpg" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Ice Skating</h4>
-
-								<p>Sisterhood</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12  recruitment"  >
-					<div class="works">
-						<img src="assets/images/events/coffeechat.jpg" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Recruitment Coffee Chat</h4>
-
-								<p>Recruitment</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 sisterhood"  >
-					<div class="works">
-						<img src="assets/images/events/dayawayfall17.jpg" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Day Away Fall 2017</h4>
-
-								<p>Sisterhood</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 sisterhood"  >
-					<div class="works">
-						<img src="assets/images/events/ithacafarmersmarket.jpg" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Going to the Farmers' Market</h4>
-
-								<p>Sisterhood</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12  professional"  >
-					<div class="works">
-						<img src="assets/images/events/personalbranding.jpg" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>An Ωutlook on Engineering: Personal Branding with Codie Sanchez</h4>
-
-								<p>Professional Development</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12  sisterhood"  >
-					<div class="works">
-						<img src="assets/images/events/homecoming17.jpg" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Going to Homecoming</h4>
-
-								<p>Sisterhood</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12  professional"  >
-					<div class="works">
-						<img src="assets/images/events/cybersecurity.jpg" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>An Ωutlook on Engineering: Cybersecurity with Elissa Shevinsky</h4>
-
-								<p>Professional Development</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12  sisterhood"  >
-					<div class="works">
-						<img src="assets/images/events/colonyinstallation.jpg" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Colony Installation Ceremony</h4>
-
-								<p>Sisterhood</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12  recruitment"  >
-					<div class="works">
-						<img src="assets/images/events/clubfest.jpg" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Club Fest</h4>
-
-								<p>Recruitment</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12  sisterhood"  >
-					<div class="works">
-						<img src="assets/images/events/welcomebackfall17.jpg" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Welcome Back to Cornell!</h4>
-
-								<p>Sisterhood</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12  professional"  >
-					<div class="works">
-						<img src="assets/images/events/elevatorpitches.png" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Elevator Pitch Workshop</h4>
-
-								<p>Professional Development</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12  professional"  >
-					<div class="works">
-						<img src="assets/images/events/resumereview.png" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Resume Review Workshop</h4>
-
-								<p>Professional Development</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12  professional"  >
-					<div class="works">
-						<img src="assets/images/events/headshotcampaign.png" alt="">
-
-						<div class="work-overlay text-center">
-							<div class="overlay-caption">
-								<h4>Headshot Campaign</h4>
-
-								<p>Professional Development</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	</div> <!-- / Container-->
 </section>
+
+<section id="testimonial-sister">
+	<div class="container text-center">
+		<div class="row ">
+			<h2 class="section-title">Sisterhood</h2>
+
+			<p class="sec-subtitle">We all come from different backgrounds, grew up in different places, and are studying different majors. This sorority is a chance for us to all bond together, despite those differences, as fellow women in STEM. Studying for finals, attending campus events, celebrating holidays and special occassions, and even just hanging out: these are all different ways that the sisterhood of AΩE develops.</p>
+
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				 <!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="assets/images/events/resumereview.png" alt="Los Angeles">
+					</div>
+
+					<div class="item">
+						<img src="chicago.jpg" alt="Chicago">
+					</div>
+	
+					<div class="item">
+						<img src="ny.jpg" alt="New York">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div> <!-- / Container-->
+</section>
+
+<!-- / Testimonial-->
 
 <!--Footer-->
 <footer id="footer">
