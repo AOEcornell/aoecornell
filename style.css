@@ -426,10 +426,16 @@ img {
 	max-width: 100%; /* Adhere to container width. */
 }
 
-#beta{
+#headshots{
 	height: 300px;
+}
 
-	
+#chair{
+	color: gray;
+	font-weight: bold;
+}
+#officer{
+	color: blue;
 }
 
 table {
@@ -786,6 +792,7 @@ a:active {
 	clear: both;
 	margin: 0 0 1.5em;
 }
+
 
 /*--------------------------------------------------------------
 ## Asides
